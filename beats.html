@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhasna</title>
+    <style>
+        body {
+            margin: 0px 3% 0px 3%;
+            width: 100vw;
+            overflow: hidden;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: "Poppins";
+            box-sizing: border-box;
+            background-color: black;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: black;
+            height: 15vh;
+            width: 90%;
+            margin: 0px 5% 0px 5%;
+            top: 10px;
+        }
+
+        .logo {
+            height: 70%;
+            width: 10%;
+
+        }
+
+        .logo img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .navlinks {
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+        }
+
+        .link1:hover {
+            color: red;
+
+        }
+
+        .link2:hover {
+            color: red;
+
+        }
+
+        .link3:hover {
+            color: red;
+        }
+
+        .navlinks a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 18px;
+        }
+
+        .buttons {
+            display: flex;
+            width: 50%;
+            justify-content: space-evenly;
+            margin-top: 3%;
+        }
+
+        .btn1 {
+            height: 40px;
+            width: 100px;
+            background: transparent;
+            border: 2px solid white;
+            outline: none;
+            text-decoration: none;
+            color: aliceblue;
+            cursor: pointer;
+
+        }
+
+        .btn1:hover {
+            border: 2px solid red;
+        }
+
+        .btn2 {
+            height: 40px;
+            width: 100px;
+            background-color: red;
+            border: 2px solid red;
+            outline: none;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        .btn2:hover {
+            border: 2px solid red;
+            background: transparent;
+            /* color: red; */
+        }
+
+        .intro {
+            height: 85vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .quote h1 {
+            width: 50vw;
+            font-family: "Luckiest Guy";
+            color: white;
+            font-size: 60px;
+        }
+
+        .red {
+            font-family: "Luckiest Guy";
+            color: red;
+        }
+
+        .item {
+            height: 80vh;
+            width: 45vw;
+        }
+
+        .item img {
+            height: 60%;
+            width: 100%;
+            transform: rotate(90deg);
+
+        }
+
+        @media screen {}
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="navbar">
+            <div class="logo"><img src="./beats.png" alt=""></div>
+            <ul class="navlinks">
+                <li class="link1"><a href="https://www.facebook.com" id="link" target="_blank">Home</a></li>
+                <li class="link2"><a href="https://www.google.com" id="link" target="_blank">Services</a></li>
+                <li class="link3"><a href="https://twitter.com" id="link" target="_blank">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="intro">
+            <div class="quote">
+                <h1>"Go Bold"</h1>
+                <h1>"Listen to <span class="red">red</span>"</h1>
+                <div class="buttons">
+                    <a href="#"><button class="btn1">Try me!</button></a>
+                    <a href="#"><button class="btn2">Buy me!</button></a>
+                </div>
+            </div>
+            <img src="./headsetnobg.png" alt="" class="img">
+        </div>
+
+    </main>
+</body>
+
+</html>
